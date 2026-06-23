@@ -7,12 +7,14 @@ body {
     background-color: #4A2C2A !important;
 }
 
-.nav-link {
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75) !important;
+    text-decoration: none !important;
     transition: color 0.2s ease-in-out;
 }
 
-.nav-link.active, 
-.nav-link:hover {
+.navbar-nav .nav-link.active, 
+.navbar-nav .nav-link:hover {
     color: #D4A373 !important;
 }
 
